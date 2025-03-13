@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Ion Gramada</strada>
+            <numar>2</numar>
+            <localitate>Radauti</localitate>
+            <judet>Suceava</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <educatia>
+            <liceu>
+                <nume>Eudoxiu Hurmuzachi</nume>
+                <profil>Mate-Info</profil>
+            </liceu>
+            <facultate>
+                <nume>AC</nume>
+            </facultate>
+        </educatia>
+        <experienta>
+            <companie_nume>
+                <nume>AMD</nume>
+                <perioada> 2 luni</perioada>
+            </companie_nume>
+        </experienta>
+    </persoana>
+
+    <persoana id="2">
+        <nume>Airinei</nume>
+        <prenume>George</prenume>
+        <varsta>20</varsta>
+        <adresa>
+            <strada>Popescu Ion</strada>
+            <numar>20</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <educatia>
+            <liceu>
+                <nume>Costache Negruzzi</nume>
+                <profil>Mate-Info</profil>
+            </liceu>
+            <facultate>
+                <nume>Drept</nume>
+            </facultate>
+        </educatia>
+        <experienta>
+            <companie_nume>
+                <nume>Voinescu and Lawyers</nume>
+                <perioada> 2 luni</perioada>
+            </companie_nume>
+        </experienta>
+    </persoana>
+
+    <persoana id="3">
+        <nume>Georgescu</nume>
+        <prenume>Petre</prenume>
+        <varsta>24</varsta>
+        <adresa>
+            <strada>Salciilor</strada>
+            <numar>204</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <educatia>
+            <liceu>
+                <nume>Emil Racovita</nume>
+                <profil>Chimie-Biologie</profil>
+            </liceu>
+            <facultate>
+                <nume>Medicina</nume>
+            </facultate>
+        </educatia>
+        <experienta>
+            <companie_nume>
+                <nume>Institutul de medicina legala</nume>
+                <perioada> 6 luni</perioada>
+            </companie_nume>
+        </experienta>
+    </persoana>
+</persoane>

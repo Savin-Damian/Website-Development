@@ -1,0 +1,146 @@
+
+<h2 class="animatie_text">Haideți să învățăm împreună!</h2>
+<div id="id_verifica">
+    <br><br>
+    <img src="Imagini/gifuri5.gif" height="400" width="600" style="display: block;">
+
+    <aside  id="id_sectiuni">
+        <h2>Secțiuni</h2>
+        <ul>
+            <li><a href="#s1" >Secțiunea 1</a></li>
+            <li><a href="#s2" >Secțiunea 2</a></li>
+            <li><a href="#s3" >Secțiunea 3</a></li>
+        </ul>
+    </aside>
+</div>
+
+<br><br><br><br>
+<h3 class="animatie_text2">Aceste secțiuni vor cuprinde o serie de tehnici și de sfaturi pentru a învăța minunata artă a schiatului.</h3>
+<section id="s1">
+    <h2> Secțiunea 1</h2>
+    <h4>Întâi vom începe cu niște informații adiționale:</h4>
+    <ul> 
+        <li>    <div> Data și ora curentă: <span id="data_ora"></span></div> </li>
+        <li>    <div> Adresa URL este: <span id="url"></span></div>   </li>
+        <li>    <div> Locația curentă este: <span id="loc"></span></div>   </li>
+        <li>    <div> Numele și versiunea browserului folosit sunt: <span id="browser"></span></div>   </li>
+        <li>    <div> Sistemul de operare folosit: <span id="so"></span></div>   </li>
+    </ul>
+    <h3>Sunteți prima oară la schi – cum să te pregătești?</h3>
+    <div>Înainte de a începe sezonul de schi, ar trebui să fim pregătiți fizic pentru el. Acest lucru este valabil pentru toată lumea, nu numai pentru începători.
+        Cel mai bine este să începi un plan de antrenament cu câteva luni înainte de excursie planificată, care presupune exerciții fizice de 3 ori pe săptămână timp de aproximativ 45 - 60 de minute. <br>
+        Să ne concentrăm pe cele mai importante părți: mușchii picioarelor, abdomenului, mușchii centurii sub-abdominale, mușchii brațelor, mușchiului extensor al spatelui, precum și asupra articulațiilor șoldului,
+        genunchilor și gleznei. Apoi, cu 2 săptămâni înainte de a merge la pârtie, să creștem frecvența antrenamentelor la 4 sau chiar 5 pe săptămână. Include  antrenamentul de încălzire, cardio, aerobic și de forță.</div>
+</section>
+
+<section id="s2">
+    <h2> Secțiunea 2</h2>
+    <h4>Mai întâi, vom începe cu un mic joculeț.</h4>
+    <p>Apăsați de două ori cu mouse-ul, în puncte diferite, în chenarul de mai jos, și se va desena un dreptunghi. De asemenea, se poate alege culoarea de fundal și culoare de chenar.</p>
+    <label for="favcolor">Culoare desenare contur:</label>
+    <input type="color" id="stroke" name="stroke" value="#ff0000">
+    <br>
+    <label for="favcolor">Culoare de umplere:</label>
+    <input type="color" id="fill" name="fill" value="#008bff">
+    <br><br>
+    <fieldset> 
+    <canvas id="canva" onclick="desenCanvas(event)" width="930" height="300"></canvas>    
+    <br><br><br><br>
+    </fieldset>
+
+    <h3 class="animatie_text2">Câteva imagini de pe pârtii</h3>
+    <img src="Imagini/partie7.png" alt="partie4" height="240"width="450">
+    <img src="Imagini/partie5.png" alt="partie4" height="240"width="350">
+    <h3>Ce să luați la schi? Lista cu echipamentele, îmbrăcămintea și accesoriile necesare</h3>
+    <div> Atunci când facem bagajele pentru prima excursie la schi, trebuie în primul rând să ținem cont de ținuta de schi adecvată. Veți avea nevoie de:
+        <ul> 
+            <li>Un strat suplimentar izolator, de ex. O jachetă din material tehnic sau din lână de merinos</li>
+            <li>Geacă de schi sau salopetă</li>
+            <li>Pantaloni de schi</li>
+            <li>Căciulă sub cască</li>
+            <li>Mănuși de schi</li>
+        </ul>
+        De asemenea, veți avea nevoie de echipament care se potrivește înălțimii, greutății și nivelului vostru de calificare. 
+        Chiar dacă nu doriți să-l cumpărați încă, merită să aflați mai multe despre el de la specialiști într-un magazin profesionist și apoi să închiriați:
+        <ul> 
+            <li>Schiuri alese individual cu sistem de închidere adecvat</li>
+            <li>încălțăminte de schi (pentru începători se recomandă modelele moi. Merită să te obișnuiești cu ele înainte de sezon, ca să se rodeze „pe uscat”)</li>
+            <li>Cască de schi</li>
+            <li>Bețe de schi</li>
+            <li>Gogle de schi</li>
+        </ul>
+        Pot fi necesare accesorii suplimentare:
+        <ul> 
+            <li>Cremă cu filtru și ochelari de soare cu polarizare – esențial în zilele însorite de pe pârtii, când soarele se reflectă în zăpadă și vă poate răni ochii sau vă poate arde pielea</li>
+            <li>cremă pentru febră musculară</li>
+            <li>Huse și rucsacuri pentru echipament – ușurează transportul tuturor echipamentelor de la mașină la pârtie, care uneori este departe de parcare</li>
+            <li>Batoane energizante sau ciocolată neagră ca o gustare rapidă în timpul antrenamentului</li>
+        </ul>
+    </div>
+    
+
+</section>
+
+<section id="s3">
+    <h2> Secțiunea 3</h2>
+    <h4>Încă o sesiune interactivă.<br>Tabelul de mai jos îl putem modifica după bunul plac. Putem adăuga noi linii și noi coloane în ce poziție a tabelului dorim.</h4>
+    <label for="linie">Poziție linie/coloană:</label>
+    <input type="text" id="linie/coloana">
+    <br>
+    <label for="culoare">Culoare de fundal:</label>
+    <input type="color" id="culoare">
+    <br>
+    <br>
+    <button onclick="inserareLinie()">Inserare Linie</button>
+    <br>
+    <button onclick="inserareColoana()">Inserare Coloană</button>
+    <br><br>
+    
+    <table id="tabel">
+        <tr>
+            <td><b>Locație</b></td>
+            <td><b>Activitate</b></td>
+            <td><b>Preț</b></td>
+            <td><b>Durată</b></td>
+        </tr>
+        <tr>
+            <td>Sinaia</td>
+            <td>Ski</td>
+            <td>30 lei</td>
+            <td>1 h</td>
+        </tr>
+        <tr>
+            <td>Cavnic</td>
+            <td>Ski</td>
+            <td>50 lei</td>
+            <td>2 h</td>
+        </tr>
+        <tr>
+            <td>Predeal</td>
+            <td>Snowboard</td>
+            <td>50 lei</td>
+            <td>1:30 h</td>
+        </tr>
+        <tr>
+            <td>Predeal</td>
+            <td>Tubing</td>
+            <td>40 lei</td>
+            <td>1 h</td>
+        </tr>
+
+    </table>
+
+    <h3>Prima coborâre pe pârtie</h3>
+    <div>Începătorii sunt sfătuiți ca prima dată când se dau pe pârtie să găsească întâi o porțiune dreaptă de zapadă, pe care să exerseze primele mișcări.
+        Fără a ridica picioarele de pe zăpadă, aceștia trebuie să se obișnuiască întâi cu sentimentul și să schieze ușor, în față și în lateral, cu fiecare picior pe rând.
+
+        În momentul primei coborâri pe pârtie, este foarte important să țineți capul sus, pentru a vedea mereu în ce direcție vă îndreptați.
+        
+        După câteva împingeri în bețe, veți începe să prindeți puțină viteză, iar când doriți să vă opriți lăsați zăpada să vă încetinească în mod natural.
+        
+        De asemenea, un lucru foarte important este să nu vă uitați în jos în timpul schiatului, existând pericolul să vă pierdeți echilibrul.</div>
+    
+</section>
+<br><br>
+
+

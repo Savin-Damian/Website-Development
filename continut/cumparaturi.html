@@ -1,0 +1,93 @@
+
+<div>
+    <fieldset>
+        <legend>Produse:</legend>
+        <h3  id="cump"> Este momentul să vă bucurați de fiecare achiziție și să vă transformați dorințele în realitate!</h3>
+            <div class="produs">
+                <img src="Imagini/skiuri.png" height="170" width="140">
+                <div>Skiuri</div>
+            </div>
+            <div class="produs">
+                <img src="Imagini/clapari_ski.png" height="170" width="140">
+                <div>Clăpari pentru ski</div>
+            </div>
+            <div class="produs">
+                <img src="Imagini/ochelari.png" height="170" width="140">
+                <div>Ochelari pentru ski</div>
+            </div>
+            <div class="produs">
+                <img src="Imagini/masca_ochelari.png" height="170" width="140">
+                <div>Mască cu ochelari</div>
+            </div>
+            <div class="produs">
+                <img src="Imagini/geaca.png" height="170" width="140">
+                <div>Geacă protecție</div>
+            </div>
+            <div class="produs">
+                <img src="Imagini/pantaloni.png" height="170" width="140">
+                <div>Pantaloni protecție</div>
+            </div>
+            <div class="produs">
+                <img src="Imagini/snowboard.jpg" height="170" width="140">
+                <div>Snowboard</div>
+            </div> 
+            <div class="produs">
+                <img src="Imagini/sanie.png" height="170" width="140">
+                <div>Sanie</div>
+            </div> 
+            <div class="produs">
+                <img src="Imagini/sanie_copii.jpg" height="170" width="140">
+                <div>Sanie pentru copii</div>
+            </div> 
+            <div class="produs">
+                <img src="Imagini/colac.jpg" height="170" width="140">
+                <div>Colac pentru zăpadă</div>
+            </div> 
+    </fieldset>
+
+   
+    
+    <fieldset>  
+        <legend>Lista de cumpărături:</legend>
+        <div> 
+            <br><br>
+            <div class="tabel-container2">
+                <div>
+                    <label for="name">Nume Produs:</label>  <br>
+                    <input type="text" id="name" name="name"> <br><br>
+                </div>
+                <div> 
+                    <label for="cantitate">Cantitate:</label><br>
+                    <input type="number" id="cantitate" name="cantitate"> <br><br>
+                </div>
+            </div>
+            <div style="text-align: center;"> 
+                <label id="mod_salvare" for="salvare">Alegeți modalitatea de salvare:</label> <br>
+                <select id="salvare" name="salvare">
+                    <option value="localStorage">localStorage</option>
+                    <option value="IndexDB">IndexDB</option>       
+                </select><br><br>
+                <input type="submit" value="Adaugă" onclick="adauga_produs()"><br><br>
+            </div>
+
+        </div>
+        <div class="tabel-container"> 
+            <div>Tabel cu produsele salvate în Local Storage:
+                <table id="tabel_cumparaturi"> 
+                    <th>ID</th>
+                    <th>Nume Produs</th>
+                    <th>Cantitate</th>
+                </table> 
+            </div>
+            <div>Tabel cu produsele salvate în IndexDB:
+                <table id="tabel_cumparaturi2"> 
+                    <th>ID</th>
+                    <th>Nume Produs</th>
+                    <th>Cantitate</th>
+                </table>
+            </div>
+        </div>
+    </fieldset>
+    
+  
+</div>

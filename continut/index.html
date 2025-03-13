@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+    <head>
+        <title>Index</title>  
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/still.css">
+        <script src="js/script.js"></script>
+        <script src="js/persoane.js"></script>
+        <script src="js/cumparaturi.js"></script>
+        <script src="js/worker.js"></script>
+    </head>
+    <body onload="schimbaContinut('acasa')" id="content">
+        
+        <header id="menu" > 
+            <nav>
+                <a onclick="schimbaContinut('acasa')">Acasă</a>
+                <a onclick="schimbaContinut('despre')">Despre</a>
+                <a onclick="schimbaContinut('inregistreaza')">Înregistrează</a>
+                <a onclick="schimbaContinut('video')">Video</a>
+                <a onclick="schimbaContinut('desen')">Desen</a>
+                <a onclick="schimbaContinut('invat','js/script.js', 'informatii' )">Învăț</a>
+                <a onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a>
+                <a onclick="schimbaContinut('verifica')">Verifică</a>
+                <a onclick="schimbaContinut('cumparaturi')">Cumpărături</a>
+                <div class="animation start-acasa"></div>  
+            </nav>
+        </header>
+
+        <main id="continut">  </main>  
+
+        <footer>
+            &copy; 2024. Programare web. Toate drepturile rezervate.
+        </footer>
+    </body>
+</html>
